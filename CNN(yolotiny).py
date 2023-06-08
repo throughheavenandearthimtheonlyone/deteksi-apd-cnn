@@ -21,7 +21,7 @@ cap = cv2.VideoCapture(0)
 # Variables FPS
 start_time = time.time()
 frame_count = 0
-
+frame_size = 0
 while cap.isOpened():
     ret, frame = cap.read()
 
